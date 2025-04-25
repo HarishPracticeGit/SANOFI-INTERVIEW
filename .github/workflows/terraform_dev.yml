@@ -1,6 +1,14 @@
 name: 'Terraform-dev-environment'
 
 on:
+  workflow_dispatch:
+    inputs:
+      ENV: 
+       type: choice
+       options:
+         - Dev
+         - Stage
+         - PROD
   push:
     paths:
       - 'dev/**'
