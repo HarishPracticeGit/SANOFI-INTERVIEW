@@ -1,4 +1,4 @@
-name: 'Terraform-dev-environment'
+name: 'Terraform-dispatch-environment'
 
 on:
   workflow_dispatch:
